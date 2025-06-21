@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GTX</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="assets/GTX.png" alt="Logo GTX" class="logo" />
+    </div>
+    <h1></h1>
+    <p>Structure Compétitive – GTX</p>
+  </header>
+
+  <section id="projet">
+    <h2>Notre Projet</h2>
+    <p>
+      GTX est une structure montante de la scène Valorant francophone, née d’une passion commune pour la compétition, l'exigence, et la progression. Alliant rigueur et ambition, nous forgeons notre identité autour du travail collectif, de la discipline tactique, et d’un objectif clair : atteindre les plus hauts niveaux du jeu.
+    </p>
+  </section>
+
+  <section id="STAFF">
+    <h2>STAFF</h2>
+    <div class="team-member">
+      <h3>Clément</h3>
+      <p>L'ambassadeur est créateur de la structure.</p>
+    </div>
+    <div class="team-member">
+      <h3>Shisako</h3>
+      <p>Sécurité informatique et développement web</p>
+    </div>
+    <div class="team-member">
+      <h3>Noémie</h3>
+      <p>Responsable de la structure</p>
+    </div>
+        <div class="team-member">
+      <h3>Jordan</h3>
+      <p>Administrateur de la structure</p>
+    </div>
+        <div class="team-member">
+      <h3>Arthur</h3>
+      <p>Modérateur de la structure</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 GTX - Equipe Valorant Semi-Pro
+  </footer>
+
+  <button class="recrute-btn" onclick="openModal()">Recrutement & Contact</button>
+
+  <div class="modal" id="contact-modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h2>Contactez GTX</h2>
+      <input type="text" id="name" placeholder="Votre nom" required />
+      <input type="discord" id="discord" placeholder="discord" required />
+      <textarea rows="5" id="message" placeholder="Votre message ou candidature..."></textarea>
+      <button onclick="submitForm()">Envoyer</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
